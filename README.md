@@ -13,3 +13,24 @@ The majority of the content can be found on the course website.
 ## License
 
 The content of this project itself is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license](https://creativecommons.org/licenses/by-nc-nd/4.0/), and the underlying source code used to format and display that content, along with the code exercises is licensed under the [MIT license](LICENSE.md).
+
+# My Notes
+
+## Useful Methods in Python
+Three most useful Python Tools
+```py
+  # Get the type of something
+  type(variable)
+  # Get all the functions available for something
+  dir(variable)
+  # Get Help on something
+  help(str)
+  help(str.upper)
+```
+
+## Python Don'ts
+- Don't start variables with a number
+- Be careful when naming variables as not to override built-in types
+
+## Notes
+- Read errors bottom to top
