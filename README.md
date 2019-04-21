@@ -14,7 +14,7 @@ The majority of the content can be found on the course website.
 
 The content of this project itself is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license](https://creativecommons.org/licenses/by-nc-nd/4.0/), and the underlying source code used to format and display that content, along with the code exercises is licensed under the [MIT license](LICENSE.md).
 
-# My Notes
+# Course Notes
 
 ## Useful Methods in Python
 Three most useful Python Tools
@@ -31,6 +31,42 @@ Three most useful Python Tools
 ## Python Don'ts
 - Don't start variables with a number
 - Be careful when naming variables as not to override built-in types
+
+
+## Data Types
+
+### Variables
+- Use lowercase letters and underscores
+- Variables are dynamic so you don't need to specify type
+- Python uses `None` as their null/nil
+
+
+### Numbers
+- Add a decimal to make a number a float
+- You can specify number types using `int()` or `float()`
+
+### Strings
+- Can use single or double quotes – It doesn't matter
+- Best practice is to use double quotes
+- `"""` is a long string
+- F-String: `f"Hello, {name}"`
+
+### Practice: Data Type
+[Practice Link](https://www.learnpython.dev/02-introduction-to-python/020-basic-data-types/10-exercise/)
+
+## Functions
+
+### Functions
+- Function uses indentation to scope things
+```py
+def test_function(x, y):
+  return x + y
+
+test_function(5, 7)
+```
+
+---
+
 
 ## Notes
 - Read errors bottom to top
