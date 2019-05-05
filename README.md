@@ -10,11 +10,17 @@ The majority of the content can be found on the course website.
 * [This Repo - git.io/python3](https://git.io/python3)
 * [Follow Nina on Twitter](https://twitter.com/nnja)
 
-## License
 
-The content of this project itself is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license](https://creativecommons.org/licenses/by-nc-nd/4.0/), and the underlying source code used to format and display that content, along with the code exercises is licensed under the [MIT license](LICENSE.md).
+
+
+----
+
+
+
 
 # Course Notes
+
+To start REPL, press CMD+SHIFT+P and select Python REPL
 
 ## Useful Methods in Python
 Three most useful Python Tools
@@ -28,12 +34,12 @@ Three most useful Python Tools
   help(str.upper)
 ```
 
-## Python Don'ts
+## Chapter 1: Why Choose Python
 - Don't start variables with a number
 - Be careful when naming variables as not to override built-in types
 
 
-## Data Types
+## Chapter 2: Basic Data Types
 
 ### Variables
 - Use lowercase letters and underscores
@@ -54,7 +60,11 @@ Three most useful Python Tools
 ### Practice: Data Type
 [Practice Link](https://www.learnpython.dev/02-introduction-to-python/020-basic-data-types/10-exercise/)
 
-## Functions
+
+
+
+
+## Chapter 3: Functions
 
 ### Functions
 - Function uses indentation to scope things
@@ -64,6 +74,43 @@ def test_function(x, y):
 
 test_function(5, 7)
 ```
+
+
+### [Function Arguments](https://www.learnpython.dev/02-introduction-to-python/060-functions/30-function-arguments/)
+- Default arguments go last
+- Don't use empty lists because Python will just keep adding to them when you call the function
+
+```py
+def say_greeting(name, greeting="Hello")
+  print(f"{greeting}, {name}")
+```
+
+
+### [Function Scope](https://www.learnpython.dev/02-introduction-to-python/060-functions/40-scope/)
+```py
+def twitter_info():
+    twitter_account = "nnja"
+    print(f"Account inside function: {twitter_account}")
+twitter_info()
+print(f"Account outside of function: {twitter_account}")
+```
+
+```py
+name = "Nina"
+print(f"Name outside of function: {name}")
+def try_change_name():
+    name = "Max"
+    print(f"Name inside of function: {name}")
+try_change_name()
+print(f"Name outside of function: {name}")
+```
+
+
+
+## [Chapter 4: Advanced Container Types](https://www.learnpython.dev/02-introduction-to-python/080-advanced-datatypes/)
+
+### [Lists, Part 1](https://www.learnpython.dev/02-introduction-to-python/080-advanced-datatypes/10-lists/)
+- Lists maintain the order of the items inside them
 
 ---
 
